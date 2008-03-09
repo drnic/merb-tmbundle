@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require_css ${1:'${2:css_files_without_extensions}'}</string>
+	<key>name</key>
+	<string>require_css</string>
+	<key>scope</key>
+	<string>source.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>reqcss</string>
+	<key>uuid</key>
+	<string>ACE5AC71-04AB-4B91-97BE-16C47D7F259E</string>
+</dict>
+</plist>

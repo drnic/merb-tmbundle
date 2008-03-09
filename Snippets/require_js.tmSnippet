@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require_js ${1:'${2:js_files_without_extensions}'}</string>
+	<key>name</key>
+	<string>require_js</string>
+	<key>scope</key>
+	<string>source.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>reqjs</string>
+	<key>uuid</key>
+	<string>DA79F341-50C8-49AA-8592-D8065475B977</string>
+</dict>
+</plist>

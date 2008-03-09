@@ -18,6 +18,10 @@
 				<array>
 					<string>0D53FCF4-5DFB-4197-9532-3187E3B790CF</string>
 					<string>9FA38EE6-B15E-4F45-872B-855A7B3EDE05</string>
+					<string>------------------------------------</string>
+					<string>DA79F341-50C8-49AA-8592-D8065475B977</string>
+					<string>ACE5AC71-04AB-4B91-97BE-16C47D7F259E</string>
+					<string>F119104F-EA80-44E2-BF8D-FF5B41636F78</string>
 				</array>
 				<key>name</key>
 				<string>Assets</string>
@@ -69,6 +73,8 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>7C19B450-0784-4CDA-A6CE-63D9EBB3B817</string>
+					<string>8E5830CE-860E-4195-B908-D83BB9DEBEE4</string>
 					<string>01C35FB5-E15E-41CB-BBA5-2E78BE0B4868</string>
 				</array>
 				<key>name</key>
@@ -118,6 +124,8 @@
 		<string>0D53FCF4-5DFB-4197-9532-3187E3B790CF</string>
 		<string>9FA38EE6-B15E-4F45-872B-855A7B3EDE05</string>
 		<string>F119104F-EA80-44E2-BF8D-FF5B41636F78</string>
+		<string>DA79F341-50C8-49AA-8592-D8065475B977</string>
+		<string>ACE5AC71-04AB-4B91-97BE-16C47D7F259E</string>
 		<string>7C19B450-0784-4CDA-A6CE-63D9EBB3B817</string>
 		<string>8E5830CE-860E-4195-B908-D83BB9DEBEE4</string>
 	</array>
