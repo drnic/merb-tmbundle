@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>dependencies ${1:"${2:gem_name}"${3: =&gt; "${5:1.0.0}"}}</string>
+	<key>name</key>
+	<string>dependencies</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>deps</string>
+	<key>uuid</key>
+	<string>D5DE31B6-012E-4E0C-A311-6E4C4815CBF0</string>
+</dict>
+</plist>

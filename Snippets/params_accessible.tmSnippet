@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>params_accessible ${1::${2:model} =&gt; ${5:[:${6:name}]}}</string>
+	<key>name</key>
+	<string>params_accessible</string>
+	<key>scope</key>
+	<string>meta.merb.controller</string>
+	<key>tabTrigger</key>
+	<string>para</string>
+	<key>uuid</key>
+	<string>534EC70B-C49B-44F7-8B4D-0C3269DFEFD3</string>
+</dict>
+</plist>

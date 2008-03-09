@@ -87,9 +87,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(include_required_js|include_required_css|catch_content|throw_content)\b</string>
+			<string>\b(after|before|catch_content|dependency|dependencies|display|include_required_js|include_required_css|throw_content|params_protected|params_accessible|partial|render|render_mail|render_template|skip_after|skip_before)\b</string>
 			<key>name</key>
-			<string>support.function.merb.html</string>
+			<string>support.function.merb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(cookies|params|sessions)\b</string>
+			<key>name</key>
+			<string>support.function.merb.headers</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
