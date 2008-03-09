@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>send_mail ${1:${2:Some}Mailer}, :${3:mailer_action}${5:, :from =&gt; ${10:"${11:from@acme.com}"}, :to =&gt; ${12:"${13:some@user.com}"}}</string>
+	<string>send_mail(${1:${2:Some}Mailer}, :${3:mailer_action}${5:, {
+	:from =&gt; ${10:"${11:from@acme.com}"}, 
+	:to =&gt; ${12:"${13:some@user.com}"},
+	:subject =&gt; ${15:"${16:Email subject}"}
+\}${20:, { :${25:user} =&gt; ${26:@user} \}})}</string>
 	<key>name</key>
 	<string>send_mail</string>
 	<key>scope</key>
