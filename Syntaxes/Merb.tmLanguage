@@ -85,6 +85,12 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(include_required_js|include_required_css|catch_content|throw_content)\b</string>
+			<key>name</key>
+			<string>support.function.merb.html</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.ruby.merb</string>

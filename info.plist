@@ -17,6 +17,7 @@
 				<key>items</key>
 				<array>
 					<string>0D53FCF4-5DFB-4197-9532-3187E3B790CF</string>
+					<string>9FA38EE6-B15E-4F45-872B-855A7B3EDE05</string>
 				</array>
 				<key>name</key>
 				<string>Assets</string>
@@ -115,6 +116,10 @@
 		<string>E0E57168-0A7D-4497-88B2-F9F99B68E609</string>
 		<string>43625448-B989-430B-A5ED-1DE27FC4F4A1</string>
 		<string>0D53FCF4-5DFB-4197-9532-3187E3B790CF</string>
+		<string>9FA38EE6-B15E-4F45-872B-855A7B3EDE05</string>
+		<string>F119104F-EA80-44E2-BF8D-FF5B41636F78</string>
+		<string>7C19B450-0784-4CDA-A6CE-63D9EBB3B817</string>
+		<string>8E5830CE-860E-4195-B908-D83BB9DEBEE4</string>
 	</array>
 	<key>uuid</key>
 	<string>55FA5F5A-1595-4AC0-8C2D-77830413866E</string>

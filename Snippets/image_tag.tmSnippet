@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>image_tag(${1:'${2:image.png}'}${10:, :path =&gt; ${15:'${16:/images/}'}}) </string>
+	<key>name</key>
+	<string>image_tag</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>image</string>
+	<key>uuid</key>
+	<string>9FA38EE6-B15E-4F45-872B-855A7B3EDE05</string>
+</dict>
+</plist>
