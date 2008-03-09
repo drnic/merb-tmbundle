@@ -39,8 +39,6 @@
 		|   ^     \s*+ [}\]] \s*+ ([#].*)? $
 		|   [#] .*? \(end\) \s*+ $    # Sune’s special marker
 		)</string>
-	<key>keyEquivalent</key>
-	<string>^~M</string>
 	<key>name</key>
 	<string>Merb</string>
 	<key>patterns</key>
@@ -86,10 +84,6 @@
 					<string>$self</string>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>source.ruby</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

@@ -42,12 +42,12 @@
 	<key>keyEquivalent</key>
 	<string>^~M</string>
 	<key>name</key>
-	<string>Merb (DataMapper)</string>
+	<string>Merb (Sequel)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.ruby.datamapper</string>
+			<string>source.ruby.sequel</string>
 		</dict>
 		<dict>
 			<key>include</key>
@@ -55,8 +55,8 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.ruby.datamapper.merb</string>
+	<string>source.ruby.sequel.merb</string>
 	<key>uuid</key>
-	<string>E5041B45-DA78-4C06-BBF9-58F35447C14E</string>
+	<string>AD1AF5CC-7196-4EE3-8A1B-B57E60268F8E</string>
 </dict>
 </plist>
