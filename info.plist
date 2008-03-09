@@ -6,12 +6,14 @@
 	<dict>
 		<key>items</key>
 		<array>
+			<string>694BC40B-C4D9-4DC4-8F63-39A1AD567A17</string>
 			<string>8676E66D-5FE6-4F16-A479-7FDD5C640E2B</string>
 			<string>B606A051-EB68-4815-A5B6-3FC237E444BA</string>
 			<string>B8FFDAA3-1228-4D25-9EE5-87F79D474510</string>
 			<string>------------------------------------</string>
 			<string>6103FBD1-560C-498A-A038-59A526375AD5</string>
 			<string>D5DE31B6-012E-4E0C-A311-6E4C4815CBF0</string>
+			<string>3CC649D9-F74B-4DE0-BCF4-B88954069DC3</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -44,6 +46,20 @@
 				</array>
 				<key>name</key>
 				<string>Filters</string>
+			</dict>
+			<key>694BC40B-C4D9-4DC4-8F63-39A1AD567A17</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>53ABDC99-0DDD-45D2-B242-42CA8D368B33</string>
+					<string>------------------------------------</string>
+					<string>B37D079B-8A6A-42AC-B6F8-CB6FF2C87CBD</string>
+					<string>DD3C75D1-04AB-45FE-AACF-205E9E20F805</string>
+					<string>EB1C1497-6B33-42D8-B4A2-88F71C311E12</string>
+					<string>F18A8064-D29F-4754-8C93-05769CC12F55</string>
+				</array>
+				<key>name</key>
+				<string>Go To</string>
 			</dict>
 			<key>8676E66D-5FE6-4F16-A479-7FDD5C640E2B</key>
 			<dict>
@@ -127,6 +143,8 @@
 		<string>E5041B45-DA78-4C06-BBF9-58F35447C14E</string>
 		<string>AD1AF5CC-7196-4EE3-8A1B-B57E60268F8E</string>
 		<string>6718670D-F7E9-46CA-A36F-C9915CBF45B5</string>
+		<string>7A4A01B8-6DC4-4BD1-A951-82B1B78FEAE0</string>
+		<string>2F881DE3-A9EF-4919-AC32-4CC8E8C6AAF1</string>
 		<string>6103FBD1-560C-498A-A038-59A526375AD5</string>
 		<string>D5DE31B6-012E-4E0C-A311-6E4C4815CBF0</string>
 		<string>6EB54960-6F77-4F03-A024-FA5B03430A34</string>
