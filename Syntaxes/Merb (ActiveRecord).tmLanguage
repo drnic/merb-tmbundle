@@ -51,7 +51,7 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.ruby.rails</string>
+			<string>source.ruby.merb</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
