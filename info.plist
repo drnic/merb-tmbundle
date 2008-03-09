@@ -2,6 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>8676E66D-5FE6-4F16-A479-7FDD5C640E2B</string>
+			<string>B606A051-EB68-4815-A5B6-3FC237E444BA</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>8676E66D-5FE6-4F16-A479-7FDD5C640E2B</key>
+			<dict>
+				<key>items</key>
+				<array/>
+				<key>name</key>
+				<string>Controller</string>
+			</dict>
+			<key>B606A051-EB68-4815-A5B6-3FC237E444BA</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>1CC27943-F689-42FE-BF10-89E0BA2B8100</string>
+					<string>183889A7-02F5-43BA-A3B4-FD77F5DC380E</string>
+					<string>BAF97368-4657-49F5-A199-100EE7402D37</string>
+					<string>057AB30B-76F5-41F4-8FE7-D90E2C410AB6</string>
+					<string>0C9D6F7B-98FE-4859-B0D3-753CE67F8A0C</string>
+					<string>E0E57168-0A7D-4497-88B2-F9F99B68E609</string>
+					<string>43625448-B989-430B-A5ED-1DE27FC4F4A1</string>
+				</array>
+				<key>name</key>
+				<string>Render</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Merb</string>
 	<key>ordering</key>
@@ -11,6 +44,7 @@
 		<string>E5041B45-DA78-4C06-BBF9-58F35447C14E</string>
 		<string>AD1AF5CC-7196-4EE3-8A1B-B57E60268F8E</string>
 		<string>6718670D-F7E9-46CA-A36F-C9915CBF45B5</string>
+		<string>6EB54960-6F77-4F03-A024-FA5B03430A34</string>
 		<string>1CC27943-F689-42FE-BF10-89E0BA2B8100</string>
 		<string>183889A7-02F5-43BA-A3B4-FD77F5DC380E</string>
 		<string>BAF97368-4657-49F5-A199-100EE7402D37</string>

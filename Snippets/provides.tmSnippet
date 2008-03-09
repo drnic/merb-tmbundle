@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>provides :${1:html}${2:, :${3:xml}}</string>
+	<key>name</key>
+	<string>provides</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<key>tabTrigger</key>
+	<string>pro</string>
+	<key>uuid</key>
+	<string>6EB54960-6F77-4F03-A024-FA5B03430A34</string>
+</dict>
+</plist>
