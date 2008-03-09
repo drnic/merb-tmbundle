@@ -68,11 +68,32 @@
 			<key>begin</key>
 			<string>(^\s*)(?=class\s+(([.a-zA-Z0-9_:]+(\s*&lt;\s*Merb::MailController))))\b</string>
 			<key>comment</key>
-			<string>Uses lookahead to match classes with the Controller suffix; includes 'source.ruby' to avoid infinite recursion</string>
+			<string>Uses lookahead to match classes with the Merb::MailController suffix; includes 'source.ruby' to avoid infinite recursion</string>
 			<key>end</key>
 			<string>^\1(?=end)\b</string>
 			<key>name</key>
 			<string>meta.merb.mailer</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.ruby</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(^\s*)(?=Merb::Router\.prepare\s+do\s+|[a-zA-Z]+|)\b</string>
+			<key>comment</key>
+			<string>Matches Merb::Router.prepare</string>
+			<key>end</key>
+			<string>^\1(?=end)\b</string>
+			<key>name</key>
+			<string>meta.merb.router</string>
 			<key>patterns</key>
 			<array>
 				<dict>
