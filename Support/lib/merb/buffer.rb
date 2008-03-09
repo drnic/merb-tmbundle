@@ -20,7 +20,7 @@ class Buffer
 
   # Init from a String (filename) or FilePath
   def self.new_from_file(filepath, line_number = nil, column_number = nil)
-    # In case it's a RailsPath, get the string representing the filepath
+    # In case it's a MerbPath, get the string representing the filepath
     filepath = filepath.filepath if filepath.respond_to?(:filepath)
     new(IO.read(filepath, line_number, column_number))
   end

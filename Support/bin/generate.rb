@@ -12,7 +12,7 @@ end
 
 Generator.setup
 
-if choice = TextMate.choose("Generate:", Generator.names.map { |name| Inflector.humanize name }, :title => "Rails Generator")
+if choice = TextMate.choose("Generate:", Generator.names.map { |name| Inflector.humanize name }, :title => "Merb Generator")
   arguments =
     TextMate.input(
       Generator.generators[choice].question,

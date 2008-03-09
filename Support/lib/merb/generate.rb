@@ -43,7 +43,7 @@ class Generator
     FileUtils.chdir(MerbPath.new.merb_root) do
       command = 'merb-gen | grep "^  [A-Z]" | sed -e "s/  //"'
       $logger.info "command: #{command}"
-      output = exec command
+      output = `#{command}`
       $logger.info "merb-gen: #{output}"
       list = output.split(/[,\s]+/).reject {|f| f =~ /:/}
       $logger.info "generators: #{list.inspect}"

@@ -19,7 +19,7 @@ module TextMate
 
     # Open a file in textmate using the txmt:// protocol.  Uses 0-based line and column indices.
     def open(filename, line_number = nil, column_number = nil)
-      filename = filename.filepath if filename.is_a? RailsPath
+      filename = filename.filepath if filename.is_a? MerbPath
       options = []
       options << "url=file://#{filename}"
       options << "line=#{line_number + 1}" if line_number
