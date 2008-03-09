@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>send_mail(${1:${2:Some}Mailer}, :${3:mailer_action}${5:, {
+	<string>dispatch_and_deliver(:${3:mailer_action}${5:, {
 	:from =&gt; ${10:"${11:from@acme.com}"}, 
 	:to =&gt; ${12:"${13:some@user.com}"},
 	:subject =&gt; ${15:"${16:Email subject}"}
 \}${20:, { :${25:user} =&gt; ${26:@user} \}}})</string>
 	<key>name</key>
-	<string>send_mail</string>
+	<string>dispatch_and_deliver</string>
 	<key>scope</key>
 	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
 	<key>tabTrigger</key>
-	<string>send_mail</string>
+	<string>dispatch</string>
 	<key>uuid</key>
-	<string>9BB34A45-F11D-4DF9-8EA7-C5F35B9CF080</string>
+	<string>0FE65BA8-D18C-473B-B5F4-761234E302C0</string>
 </dict>
 </plist>
