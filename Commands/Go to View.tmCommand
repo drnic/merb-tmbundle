@@ -6,18 +6,18 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb" controller</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb" view</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>~$@</string>
 	<key>name</key>
-	<string>Go to Controller</string>
+	<string>Go to View</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
-	<string>meta.ruby.datamapper.model, meta.ruby.activerecord.model, meta.ruby.sequel.model, text.html.ruby.merb</string>
+	<string>meta.merb.controller</string>
 	<key>uuid</key>
-	<string>DD3C75D1-04AB-45FE-AACF-205E9E20F805</string>
+	<string>EB1C1497-6B33-42D8-B4A2-88F71C311E12</string>
 </dict>
 </plist>
