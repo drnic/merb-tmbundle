@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>throw :halt, render</string>
 	<key>scope</key>
-	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<string>meta.merb.controller</string>
 	<key>tabTrigger</key>
 	<string>haltr</string>
 	<key>uuid</key>

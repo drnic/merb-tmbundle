@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>display</string>
 	<key>scope</key>
-	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
 	<key>tabTrigger</key>
 	<string>dis</string>
 	<key>uuid</key>

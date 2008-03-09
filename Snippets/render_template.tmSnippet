@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>render_template</string>
 	<key>scope</key>
-	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
 	<key>tabTrigger</key>
 	<string>rent</string>
 	<key>uuid</key>

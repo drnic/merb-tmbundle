@@ -54,7 +54,7 @@
 			<key>end</key>
 			<string>-?%&gt;</string>
 			<key>name</key>
-			<string>source.ruby.rails.embedded.html</string>
+			<string>source.ruby.merb.embedded.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -70,6 +70,10 @@
 					<string>(#).*?(?=-?%&gt;)</string>
 					<key>name</key>
 					<string>comment.line.number-sign.ruby</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>source.ruby.merb.embedded</string>
 				</dict>
 				<dict>
 					<key>include</key>

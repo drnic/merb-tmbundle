@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>params[:${1:id}]</string>
+	<string>cookies[:${1:auth_token}]</string>
 	<key>keyEquivalent</key>
-	<string>^p</string>
+	<string>^c</string>
 	<key>name</key>
-	<string>params[…]</string>
+	<string>cookies[…]</string>
 	<key>scope</key>
-	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
 	<key>uuid</key>
-	<string>D21FD8D3-6E0F-4654-873D-6C087DD0B5B8</string>
+	<string>56EE81A3-02DC-46B4-800F-649404234F19</string>
 </dict>
 </plist>

@@ -8,9 +8,19 @@
 		<array>
 			<string>8676E66D-5FE6-4F16-A479-7FDD5C640E2B</string>
 			<string>B606A051-EB68-4815-A5B6-3FC237E444BA</string>
+			<string>B8FFDAA3-1228-4D25-9EE5-87F79D474510</string>
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>01C35FB5-E15E-41CB-BBA5-2E78BE0B4868</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>0D53FCF4-5DFB-4197-9532-3187E3B790CF</string>
+				</array>
+				<key>name</key>
+				<string>Assets</string>
+			</dict>
 			<key>2011530E-DC26-47CE-AFAC-D25E0D38317D</key>
 			<dict>
 				<key>items</key>
@@ -54,6 +64,15 @@
 				<key>name</key>
 				<string>Render</string>
 			</dict>
+			<key>B8FFDAA3-1228-4D25-9EE5-87F79D474510</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>01C35FB5-E15E-41CB-BBA5-2E78BE0B4868</string>
+				</array>
+				<key>name</key>
+				<string>View</string>
+			</dict>
 			<key>E2A8DE7E-0945-43F9-89DD-35C2E06B231C</key>
 			<dict>
 				<key>items</key>
@@ -95,6 +114,7 @@
 		<string>0C9D6F7B-98FE-4859-B0D3-753CE67F8A0C</string>
 		<string>E0E57168-0A7D-4497-88B2-F9F99B68E609</string>
 		<string>43625448-B989-430B-A5ED-1DE27FC4F4A1</string>
+		<string>0D53FCF4-5DFB-4197-9532-3187E3B790CF</string>
 	</array>
 	<key>uuid</key>
 	<string>55FA5F5A-1595-4AC0-8C2D-77830413866E</string>
