@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>throw_content ${1::for_layout}, ${2:"${3:content}"}</string>
+	<key>name</key>
+	<string>throw_content</string>
+	<key>scope</key>
+	<string>source.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>throwc</string>
+	<key>uuid</key>
+	<string>8E5830CE-860E-4195-B908-D83BB9DEBEE4</string>
+</dict>
+</plist>
