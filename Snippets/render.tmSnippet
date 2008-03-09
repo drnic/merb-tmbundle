@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>render ${1::view}${5:${10:, :format =&gt; ${11::xml}}${20:, :status =&gt; ${21:Successful::Accepted}}${30:, :layout =&gt; ${31::none}}}</string>
+	<key>name</key>
+	<string>render</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<key>tabTrigger</key>
+	<string>ren</string>
+	<key>uuid</key>
+	<string>1CC27943-F689-42FE-BF10-89E0BA2B8100</string>
+</dict>
+</plist>
