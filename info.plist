@@ -34,6 +34,7 @@
 					<string>6EB54960-6F77-4F03-A024-FA5B03430A34</string>
 					<string>9BB40F62-4A8A-4BD0-91A5-4D678C1146BF</string>
 					<string>2011530E-DC26-47CE-AFAC-D25E0D38317D</string>
+					<string>E2A8DE7E-0945-43F9-89DD-35C2E06B231C</string>
 				</array>
 				<key>name</key>
 				<string>Controller</string>
@@ -52,6 +53,17 @@
 				</array>
 				<key>name</key>
 				<string>Render</string>
+			</dict>
+			<key>E2A8DE7E-0945-43F9-89DD-35C2E06B231C</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>D21FD8D3-6E0F-4654-873D-6C087DD0B5B8</string>
+					<string>56EE81A3-02DC-46B4-800F-649404234F19</string>
+					<string>B2FA54E7-CFD8-4EEA-94BB-0CE0C6FB99E2</string>
+				</array>
+				<key>name</key>
+				<string>Headers</string>
 			</dict>
 		</dict>
 	</dict>
