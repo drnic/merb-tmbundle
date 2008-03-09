@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>before :${1:authenticate}${2:, :${10:only} =&gt; ${11:[${12::login, :signup}]}}</string>
+	<key>name</key>
+	<string>before</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<key>tabTrigger</key>
+	<string>bef</string>
+	<key>uuid</key>
+	<string>E6D89B47-2A81-48B9-939E-6185BE486F68</string>
+</dict>
+</plist>

@@ -14,7 +14,9 @@
 			<key>8676E66D-5FE6-4F16-A479-7FDD5C640E2B</key>
 			<dict>
 				<key>items</key>
-				<array/>
+				<array>
+					<string>6EB54960-6F77-4F03-A024-FA5B03430A34</string>
+				</array>
 				<key>name</key>
 				<string>Controller</string>
 			</dict>
@@ -45,6 +47,12 @@
 		<string>AD1AF5CC-7196-4EE3-8A1B-B57E60268F8E</string>
 		<string>6718670D-F7E9-46CA-A36F-C9915CBF45B5</string>
 		<string>6EB54960-6F77-4F03-A024-FA5B03430A34</string>
+		<string>9BB40F62-4A8A-4BD0-91A5-4D678C1146BF</string>
+		<string>E6D89B47-2A81-48B9-939E-6185BE486F68</string>
+		<string>4185FFFA-0EC6-406A-B31D-87E532E80447</string>
+		<string>3E0807B8-C9F2-433A-B8BD-7379BE2F5497</string>
+		<string>6B9ED65B-1D26-49C2-A02A-6B8854B719D4</string>
+		<string>C0D7B908-2412-45D5-895A-170FE52E4098</string>
 		<string>1CC27943-F689-42FE-BF10-89E0BA2B8100</string>
 		<string>183889A7-02F5-43BA-A3B4-FD77F5DC380E</string>
 		<string>BAF97368-4657-49F5-A199-100EE7402D37</string>

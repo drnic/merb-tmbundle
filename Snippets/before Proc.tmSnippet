@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>before Proc.new {|c| ${1:c.some_method} }${2:, :${10:only} =&gt; ${11:[${12::login, :signup}]}}</string>
+	<key>name</key>
+	<string>before Proc</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<key>tabTrigger</key>
+	<string>befp</string>
+	<key>uuid</key>
+	<string>4185FFFA-0EC6-406A-B31D-87E532E80447</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>throw :halt, proc {|c| ${1:c.access_denied} }</string>
+	<key>name</key>
+	<string>throw :halt, proc</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb</string>
+	<key>tabTrigger</key>
+	<string>haltp</string>
+	<key>uuid</key>
+	<string>C0D7B908-2412-45D5-895A-170FE52E4098</string>
+</dict>
+</plist>
