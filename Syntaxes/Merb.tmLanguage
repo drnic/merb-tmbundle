@@ -86,6 +86,27 @@
 			</array>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>(^\s*)(?=module\s+(([.a-zA-Z0-9_]+(Helper))))\b</string>
+			<key>comment</key>
+			<string>Uses lookahead to match modules with the Helper suffix; includes 'source.ruby' to avoid infinite recursion</string>
+			<key>end</key>
+			<string>^\1(?=end)\b</string>
+			<key>name</key>
+			<string>meta.merb.helper</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.ruby</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>\b(after|before|catch_content|dependency|dependencies|display|include_required_js|include_required_css|throw_content|params_protected|params_accessible|partial|render|render_mail|render_template|skip_after|skip_before)\b</string>
 			<key>name</key>
