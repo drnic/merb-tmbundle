@@ -47,11 +47,11 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.ruby.rails</string>
+			<string>source.ruby.merb</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.ruby.merb</string>
+			<string>source.ruby.rails</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

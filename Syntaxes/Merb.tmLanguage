@@ -85,27 +85,6 @@
 				</dict>
 			</array>
 		</dict>
-		<dict>
-			<key>begin</key>
-			<string>(^\s*)(?=Merb::Router\.prepare\s+do\s+|[a-zA-Z]+|)\b</string>
-			<key>comment</key>
-			<string>Matches Merb::Router.prepare</string>
-			<key>end</key>
-			<string>^\1(?=end)\b</string>
-			<key>name</key>
-			<string>meta.merb.router</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>source.ruby</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>$self</string>
-				</dict>
-			</array>
-		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.ruby.merb</string>

@@ -47,11 +47,15 @@
 	<array>
 		<dict>
 			<key>include</key>
-			<string>source.ruby.datamapper</string>
+			<string>source.ruby.merb</string>
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>source.ruby.merb</string>
+			<string>source.ruby.datamapper.basic</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.ruby</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
