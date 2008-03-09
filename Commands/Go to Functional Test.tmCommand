@@ -6,18 +6,18 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>RUBYLIB="$TM_BUNDLE_SUPPORT/lib:$RUBYLIB"
-"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb" model</string>
+"${TM_RUBY:=ruby}" -- "${TM_BUNDLE_SUPPORT}/bin/go_to_alternate_file.rb" functional_test</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>~$@</string>
 	<key>name</key>
-	<string>Go to Model</string>
+	<string>Go to Functional Test</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
 	<string>source.ruby.datamapper, source.ruby.activerecord, source.ruby.sequel, text.html.ruby.merb</string>
 	<key>uuid</key>
-	<string>B37D079B-8A6A-42AC-B6F8-CB6FF2C87CBD</string>
+	<string>5AE2872F-85B8-4933-B05F-A2FE78E9CEED</string>
 </dict>
 </plist>
