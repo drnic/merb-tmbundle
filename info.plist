@@ -52,6 +52,7 @@
 					<string>E2A8DE7E-0945-43F9-89DD-35C2E06B231C</string>
 					<string>------------------------------------</string>
 					<string>9BB34A45-F11D-4DF9-8EA7-C5F35B9CF080</string>
+					<string>C5D177E9-DDE5-4987-A61C-596CFC831179</string>
 				</array>
 				<key>name</key>
 				<string>Controller</string>
@@ -81,6 +82,16 @@
 				</array>
 				<key>name</key>
 				<string>View</string>
+			</dict>
+			<key>C5D177E9-DDE5-4987-A61C-596CFC831179</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>3667584E-452C-4696-A49A-1397E8838FF6</string>
+					<string>19F3CAC3-91B6-407A-9925-49A3B442425F</string>
+				</array>
+				<key>name</key>
+				<string>Mailer</string>
 			</dict>
 			<key>E2A8DE7E-0945-43F9-89DD-35C2E06B231C</key>
 			<dict>
@@ -121,6 +132,7 @@
 		<string>BAF97368-4657-49F5-A199-100EE7402D37</string>
 		<string>057AB30B-76F5-41F4-8FE7-D90E2C410AB6</string>
 		<string>3667584E-452C-4696-A49A-1397E8838FF6</string>
+		<string>19F3CAC3-91B6-407A-9925-49A3B442425F</string>
 		<string>0C9D6F7B-98FE-4859-B0D3-753CE67F8A0C</string>
 		<string>E0E57168-0A7D-4497-88B2-F9F99B68E609</string>
 		<string>43625448-B989-430B-A5ED-1DE27FC4F4A1</string>

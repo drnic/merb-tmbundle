@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>attach ${1:File.open(${5:"${6:file}"})}</string>
+	<key>name</key>
+	<string>attach</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>att</string>
+	<key>uuid</key>
+	<string>19F3CAC3-91B6-407A-9925-49A3B442425F</string>
+</dict>
+</plist>
