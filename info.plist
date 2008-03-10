@@ -14,6 +14,7 @@
 			<string>6103FBD1-560C-498A-A038-59A526375AD5</string>
 			<string>D5DE31B6-012E-4E0C-A311-6E4C4815CBF0</string>
 			<string>3CC649D9-F74B-4DE0-BCF4-B88954069DC3</string>
+			<string>8EB02A1A-B7CC-4BAF-A79F-F8B1E40663AC</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -96,12 +97,22 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>C29BCCE3-4845-4411-BB49-AD0612B82CA3</string>
 					<string>7C19B450-0784-4CDA-A6CE-63D9EBB3B817</string>
 					<string>8E5830CE-860E-4195-B908-D83BB9DEBEE4</string>
 					<string>01C35FB5-E15E-41CB-BBA5-2E78BE0B4868</string>
 				</array>
 				<key>name</key>
 				<string>View</string>
+			</dict>
+			<key>C29BCCE3-4845-4411-BB49-AD0612B82CA3</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>26012CF8-A717-48CF-9681-21F0596E679A</string>
+				</array>
+				<key>name</key>
+				<string>templates</string>
 			</dict>
 			<key>C5D177E9-DDE5-4987-A61C-596CFC831179</key>
 			<dict>

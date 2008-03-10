@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;h1&gt;Listing ${1:plural_resource}&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;% @${1}.each do |${2:singular_resource}| %&gt;
+  &lt;li&gt;
+    &lt;span&gt;&lt;%= link_to 'Show', url(:${2}, ${2}) %&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;%= link_to 'Edit', url(:edit_${2}, ${2}) %&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;%= link_to 'Delete', url(:delete_${2}, ${2}) %&gt;&lt;/span&gt;
+  &lt;/li&gt;
+&lt;% end %&gt;
+&lt;ul/&gt;
+
+&lt;br /&gt;
+
+&lt;%= link_to 'New ${2}', url(:new_${2}) %&gt;</string>
+	<key>name</key>
+	<string>resource_index</string>
+	<key>scope</key>
+	<string>text.html.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>index</string>
+	<key>uuid</key>
+	<string>26012CF8-A717-48CF-9681-21F0596E679A</string>
+</dict>
+</plist>
