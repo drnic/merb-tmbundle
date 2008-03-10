@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:r}.match(${2:'${3:/}'}).to(${10::controller =&gt; '${15:whatever}', :action =&gt;'${16:index}'}$0)</string>
+	<string>${1:r}.match(${2:'${3:/whatever}'}).to(${10::controller =&gt; '${15:whatever}', :action =&gt;'${16:index}'}$0)</string>
 	<key>name</key>
 	<string>match to</string>
 	<key>scope</key>
