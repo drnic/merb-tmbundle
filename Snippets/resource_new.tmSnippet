@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;%# Requires merb-helpers and merb-assets %&gt;
+
+&lt;h1&gt;New ${1:singular_resource}&lt;/h1&gt;
+
+&lt;%= error_messages_for :${1} %&gt;
+
+&lt;% form_for :${1}, :action =&gt; url(:${1}s) do |f| %&gt;
+  &lt;p&gt;&lt;%= text_control :${2:attribute}, :label =&gt; '${2}:' %&gt;&lt;/p&gt;
+  &lt;p&gt;
+    &lt;%= submit_button 'Create' %&gt;
+  &lt;/p&gt;
+&lt;% end %&gt;
+
+&lt;%= link_to 'Back', :${1}s %&gt;</string>
+	<key>name</key>
+	<string>resource_new</string>
+	<key>scope</key>
+	<string>text.html.ruby.merb</string>
+	<key>tabTrigger</key>
+	<string>new</string>
+	<key>uuid</key>
+	<string>3F468495-ACB1-4BD0-8CB8-F02D1517206A</string>
+</dict>
+</plist>
