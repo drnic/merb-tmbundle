@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/ ${1:"${2:path}"}</string>
+	<key>keyEquivalent</key>
+	<string>^/</string>
+	<key>name</key>
+	<string>/ "path"</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb, source.ruby.activerecord.merb, source.ruby.sequel.merb, source.ruby.merb</string>
+	<key>uuid</key>
+	<string>79ED7937-712A-429D-9D13-3E235D7B7C26</string>
+</dict>
+</plist>
