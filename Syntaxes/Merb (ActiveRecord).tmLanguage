@@ -49,10 +49,6 @@
 			<key>include</key>
 			<string>source.ruby.merb</string>
 		</dict>
-		<dict>
-			<key>include</key>
-			<string>source.ruby.merb</string>
-		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.ruby.activerecord.merb</string>
