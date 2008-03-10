@@ -16,7 +16,7 @@
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>scope</key>
-	<string>meta.ruby.datamapper.model, meta.ruby.activerecord.model, meta.ruby.sequel.model, text.html.ruby.merb, meta.merb.helper</string>
+	<string>source.ruby.datamapper, source.ruby.activerecord, source.ruby.sequel, text.html.ruby.merb</string>
 	<key>uuid</key>
 	<string>DD3C75D1-04AB-45FE-AACF-205E9E20F805</string>
 </dict>

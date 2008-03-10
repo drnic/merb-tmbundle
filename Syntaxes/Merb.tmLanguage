@@ -118,6 +118,12 @@
 			<key>name</key>
 			<string>support.function.merb.headers</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(use_orm|use_test)\b</string>
+			<key>name</key>
+			<string>support.function.merb.config</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.ruby.merb</string>

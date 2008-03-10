@@ -37,7 +37,8 @@ if TextMate.selected_text
     TextMate.refresh_project_drawer
 
     # Return the new render :partial line
-    print "<%= partial '#{partial_name}' %>\n"
+    expr = "partial '#{partial_name}'"
+    print ENV['MERB_TEMPLATE_START_RUBY_EXPR'] + expr + ENV['MERB_TEMPLATE_END_RUBY_EXPR'] + "\n"
   else
     TextMate.exit_discard
   end

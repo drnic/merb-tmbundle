@@ -7,10 +7,15 @@ require 'fileutils'
 
 module AssociationMessages
   @@associations = {
-    :controller => [:helper, :model],
-    :helper => [:controller, :model],
-    :view => [:controller, :helper, :model],
-    :model => [:controller, :helper]
+    :controller => [:functional_test, :helper, :model, :javascript, :stylesheet, :fixture],
+    :helper => [:controller, :model, :unit_test, :functional_test, :javascript, :stylesheet, :fixture],
+    :view => [:controller, :javascript, :stylesheet, :helper, :model],
+    :model => [:unit_test, :functional_test, :controller, :helper, :fixture],
+    :fixture => [:unit_test, :functional_test, :controller, :helper, :model],
+    :functional_test => [:controller, :helper, :model, :unit_test, :fixture],
+    :unit_test => [:model, :controller, :helper, :functional_test, :fixture],
+    :javascript => [:helper, :controller],
+    :stylesheet => [:helper, :controller] 
   }
 
   # Make associations hash publicly available to each object
@@ -88,6 +93,8 @@ class MerbPath
     when :controller then name
     when :helper     then name.sub!(/_helper$/, '')
     when :view       then name = dirname.split('/').pop
+    when :unit_test  then name.sub!(/_test$/, '')
+    when :functional_test then name.sub!(/_test$/, '')
     else                                                                               
       if !File.file?(File.join(merb_root, stubs[:controller], '/', name + '.rb')) 
         name = Inflector.pluralize(name) 
@@ -103,17 +110,14 @@ class MerbPath
         buffer.find_method(:direction => :backward).last rescue nil
       when :view
         basename
+      when :functional_test
+        buffer.find_method(:direction => :backward).last.sub('^test_', '')
       else nil
       end
 
     return parse_file_name(name)[:file_name] rescue nil # Remove extension
   end
   
-  def respond_to_format
-    return nil unless file_type == :controller
-    buffer.find_respond_to_format
-  end
-
   def merb_root
     TextMate.project_directory
   end
@@ -130,6 +134,10 @@ class MerbPath
       when %r{/helpers/(.+_helper\.rb)$}                then :helper
       when %r{/views/(.+\.(#{VIEW_EXTENSIONS * '|'}))$} then :view
       when %r{/models/(.+\.(rb))$}                      then :model
+      when %r{/test/functional/(.+\.(rb))$}             then :functional_test
+      when %r{/test/unit/(.+\.(rb))$}                   then :unit_test
+      when %r{/public/javascripts/(.+\.(js))$}          then :javascript
+      when %r{/public/stylesheets/(?:sass/)?(.+\.(css|sass))$}  then :stylesheet
       else nil
       end
     # Store the tail (modules + file) after the regexp
@@ -176,6 +184,8 @@ class MerbPath
       end
     when :helper     then controller_name + '_helper'
     when :model      then Inflector.singularize(controller_name)
+    when :functional_test then controller_name + '_test'
+    when :unit_test  then Inflector.singularize(controller_name) + '_test'
     else controller_name
     end
   end
@@ -224,21 +234,13 @@ class MerbPath
 
   def merb_path_for_view
     return nil if action_name.nil?        
-    line, view_format = respond_to_format
 
-    if view_format  
-      VIEW_EXTENSIONS.each do |ext|
-        filename_with_extension = "#{action_name}.#{view_format}.#{ext}"
-        existing_view = File.join(merb_root, stubs[:view], modules, controller_name, filename_with_extension)
-        return MerbPath.new(existing_view) if File.exist?(existing_view)
-      end
-    end
     VIEW_EXTENSIONS.each do |ext|
       filename_with_extension = "#{action_name}.#{ext}"
       existing_view = File.join(merb_root, stubs[:view], modules, controller_name, filename_with_extension)
       return MerbPath.new(existing_view) if File.exist?(existing_view)
     end
-    default_view = File.join(merb_root, stubs[:view], modules, controller_name, action_name + default_extension_for(:view, view_format))
+    default_view = File.join(merb_root, stubs[:view], modules, controller_name, action_name + default_extension_for(:view))
     return MerbPath.new(default_view)
   end
   
