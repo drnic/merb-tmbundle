@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>dispatch_to(${2:${1:Thing}s}, :${3:action}${5:, :${10:id} =&gt; ${11:@thing}})${15: do
+  ${20:# stubs go here or other actions before request processed}$0
+end
+}</string>
+	<key>name</key>
+	<string>dispatch_to</string>
+	<key>scope</key>
+	<string>source.ruby.rspec</string>
+	<key>tabTrigger</key>
+	<string>dis</string>
+	<key>uuid</key>
+	<string>EB25DAEE-71C6-4497-8F7A-8314ECF04671</string>
+</dict>
+</plist>
