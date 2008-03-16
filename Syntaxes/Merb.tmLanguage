@@ -108,9 +108,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(after|before|catch_content|dependency|dependencies|display|include_required_js|include_required_css|throw_content|params_protected|params_accessible|partial|render|render_mail|render_template|skip_after|skip_before)\b</string>
+			<string>\b(after|before|catch_content|display|include_required_js|include_required_css|throw_content|params_protected|params_accessible|partial|render|render_mail|render_template|skip_after|skip_before)\b</string>
 			<key>name</key>
 			<string>support.function.merb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(dependency|dependencies)\b</string>
+			<key>name</key>
+			<string>keyword.other.special-method.ruby.merb</string>
 		</dict>
 		<dict>
 			<key>match</key>
