@@ -1,4 +1,6 @@
 Snippets, Commands, and Language/Syntax integration for Merb
+------------------------------------------------------------
+
 
 Installation
 ============
