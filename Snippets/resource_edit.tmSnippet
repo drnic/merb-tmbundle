@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;h1&gt;New ${1:singular_resource}&lt;/h1&gt;
+	<string>&lt;h1&gt;Edit ${1:singular_resource}&lt;/h1&gt;
 
 &lt;%= error_messages_for :${1} %&gt;
 
-&lt;%= form_for(@${1}, :action =&gt; resource(@${1})) do %&gt;
+&lt;%= form_for(@${1}, :action =&gt; resource(:edit_${1}, @${1})) do %&gt;
   &lt;p&gt;&lt;%= text_field :${2:attribute}, :label =&gt; '${2/./\u$0/}' %&gt;&lt;/p&gt;
   &lt;p&gt;
-    &lt;%= submit_button 'Create' %&gt;
+    &lt;%= submit 'Update' %&gt;
   &lt;/p&gt;
 &lt;% end %&gt;
 
-&lt;%= link_to 'Back', resource(:${1}s) %&gt;</string>
+&lt;%= link_to 'Show', resource(@${1}) %&gt; | &lt;%= link_to 'Back', resource(:${1}) %&gt;
+</string>
 	<key>name</key>
-	<string>resource_new</string>
+	<string>resource_edit</string>
 	<key>scope</key>
 	<string>text.html.ruby.merb</string>
 	<key>tabTrigger</key>
-	<string>new</string>
+	<string>edit</string>
 	<key>uuid</key>
-	<string>3F468495-ACB1-4BD0-8CB8-F02D1517206A</string>
+	<string>EF5B9162-E5EE-445E-9BA4-87D17B1D0FE8</string>
 </dict>
 </plist>

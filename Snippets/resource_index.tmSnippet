@@ -17,7 +17,7 @@
 
 &lt;br /&gt;
 
-&lt;%= link_to 'New ${2}', url(:new_${2}) %&gt;</string>
+&lt;%= link_to 'New ${2}', resource(:new_${2}) %&gt;</string>
 	<key>name</key>
 	<string>resource_index</string>
 	<key>scope</key>
