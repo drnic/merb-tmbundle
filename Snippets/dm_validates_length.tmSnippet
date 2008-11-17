@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>validates_length :${1:field}, :${2:option} =&gt; ${3:value}${4:, :allow_nil =&gt; false}${0}</string>
+	<key>name</key>
+	<string>dm_validates_length</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb</string>
+	<key>tabTrigger</key>
+	<string>vl</string>
+	<key>uuid</key>
+	<string>DF5FA2E5-79D5-494B-8AEE-BC26F973C0B6</string>
+</dict>
+</plist>

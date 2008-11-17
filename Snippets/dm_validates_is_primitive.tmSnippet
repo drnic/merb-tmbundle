@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>validates_is_primitive :${1:field}</string>
+	<key>name</key>
+	<string>dm_validates_is_primitive</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb</string>
+	<key>tabTrigger</key>
+	<string>vip</string>
+	<key>uuid</key>
+	<string>DAF4AC02-6856-49BC-937C-481DF15D40D5</string>
+</dict>
+</plist>

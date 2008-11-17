@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>validates_with_block do${1: :${2:field}}
+  if @${2} ${3:== ${4:"Value"}}
+    ${5:true}
+  else
+    [${6:false}, "${7:Error message}"]
+  end
+end
+${0}</string>
+	<key>name</key>
+	<string>dm_validates_with_block</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb</string>
+	<key>tabTrigger</key>
+	<string>vwb</string>
+	<key>uuid</key>
+	<string>6CF3F8A4-93BB-46E0-85F1-0B21B69CD4AC</string>
+</dict>
+</plist>

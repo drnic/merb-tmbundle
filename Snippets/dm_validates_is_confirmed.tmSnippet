@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>validates_is_confirmed :${1:field}${2:${3:, :confirm =&gt; ${4:${1}${5:_repeated}}}${6:, :allow_nil =&gt; ${7:false}}}${0}</string>
+	<key>name</key>
+	<string>dm_validates_is_confirmed</string>
+	<key>scope</key>
+	<string>source.ruby.datamapper.merb</string>
+	<key>tabTrigger</key>
+	<string>vic</string>
+	<key>uuid</key>
+	<string>97F73C31-39C0-4F1F-B84B-9C92E1960F80</string>
+</dict>
+</plist>
